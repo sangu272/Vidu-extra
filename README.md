@@ -1,7 +1,7 @@
-# Extra Plugins For [VIPMUSIC](https://github.com/SARKAROP123/MUSICREPOS)
+# Extra Plugins For [SARKAR](https://github.com/SARKAROP123/MUSICREPOS)
 
 
-## Deployment for [VIPMUSIC](https://github.com/SARKAROP123/MUSICREPOS)
+## Deployment for [SARKAR](https://github.com/SARKAROP123/MUSICREPOS)
 
 #### 🚀 Heroku Deployment
 
@@ -21,4 +21,4 @@
 - For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
 
 
-# For more help checkout [VIPMUSIC](https://github.com/SARKAROP123/MUSICREPOS)
+# For more help checkout [SARKAR](https://github.com/SARKAROP123/MUSICREPOS)
