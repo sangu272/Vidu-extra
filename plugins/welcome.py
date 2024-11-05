@@ -37,15 +37,20 @@ def welcomepic(pic, user, chat, id, uname):
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
     pfp = pfp.resize(
-        (450, 450)
+        (500, 500)
     ) 
     draw = ImageDraw.Draw(background)
-    font = ImageFont.truetype('assets/font.ttf', size=45)
+    font = ImageFont.truetype('assets/font.ttf', size=60)
     font2 = ImageFont.truetype('assets/font.ttf', size=90)
-    draw.text((65, 250), f'NAME : {unidecode(user)}', fill="white", font=font)
-    draw.text((65, 340), f'ID : {id}', fill="white", font=font)
-    draw.text((65, 430), f"USERNAME : {uname}", fill="white",font=font)
-    pfp_position = (767, 133)  
+    
+    saffron = (255, 153, 51)  
+    white = (255, 255, 255)   
+    green = (19, 136, 8)
+    
+    draw.text((650, 250), f'NAME : {unidecode(user)}', fill="white", font=font)
+    draw.text((650, 350), f'ID : {id}', fill="white", font=font)
+    draw.text((650, 450), f"USERNAME : {uname}", fill="white",font=font)
+    pfp_position = (100, 133)  
     background.paste(pfp, pfp_position, pfp)  
     background.save(
         f"downloads/welcome#{id}.png"
@@ -119,11 +124,11 @@ async def greet_group(_, member: ChatMemberUpdated):
  •●◉✿ ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ ✿◉●•
 ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▰
 
-● ɴᴀᴍᴇ ➥  {user.mention}
-● ᴜsᴇʀɴᴀᴍᴇ ➥  @{user.username}
-● ᴜsᴇʀ ɪᴅ ➥  {user.id}
-
-❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛[❤️‍🔥 • 𝛚𝛐𝛚 • ❤️‍🔥 ](https://t.me/ll_ITZ_NAWAB_HERE_ll)
+☉ ɴᴀᴍᴇ ➥  {user.mention}
+☉ ᴜsᴇʀɴᴀᴍᴇ ➥  @{user.username}
+☉ ᴜsᴇʀ ɪᴅ ➥  {user.id}
+☉ 𝐓ᴏᴛᴀʟ 𝐌ᴇᴍʙᴇʀs ⧽ {count}**
+☉ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛[❤️‍🔥 • 𝛚𝛐𝛚 • ❤️‍🔥 ](https://t.me/ll_ITZ_NAWAB_HERE_ll)
 ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▰
 """,
 reply_markup=InlineKeyboardMarkup(
