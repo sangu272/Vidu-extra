@@ -1,4 +1,4 @@
-# Extra Plugins For [SARKAR](https://github.com/sangu272Vidhy-)
+# Extra Plugins For [sɪᴅʜɪ ᴍᴜsɪᴄ](https://github.com/sangu272/Vidhy-)
 
 ### ❣️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sɪᴅʜɪ ᴍᴜsɪᴄ ᴡᴏʀʟᴅ❣️
 
